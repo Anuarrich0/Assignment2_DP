@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Product A2 */
 public class IceEnemy implements Enemy {
     @Override
     public String describe() {

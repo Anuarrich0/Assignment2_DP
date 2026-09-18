@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Product B1 */
 public class ForestTerrain implements Terrain {
     @Override
     public String describe() {

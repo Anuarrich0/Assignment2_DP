@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Product C2 */
 public class IceSoundtrack implements Soundtrack {
     @Override
     public String describe() {

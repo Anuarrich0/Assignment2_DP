@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Factory 1 — guarantees a fully Forest-themed family. */
 public class ForestWorldFactory implements WorldFactory {
     @Override
     public Enemy createEnemy() {

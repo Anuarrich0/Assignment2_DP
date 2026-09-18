@@ -1,6 +1,4 @@
 package factorymethod;
-
-/** Concrete Product 1 */
 public class Goblin implements Enemy {
 
     private final int health = 30;

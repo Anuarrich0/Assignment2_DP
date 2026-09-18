@@ -1,6 +1,4 @@
 package factorymethod;
-
-/** Concrete Product 3 */
 public class Slime implements Enemy {
 
     private final int health = 20;

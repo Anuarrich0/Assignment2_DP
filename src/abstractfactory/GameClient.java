@@ -1,11 +1,5 @@
 package abstractfactory;
 
-/**
- * Client class using composition.
- * It receives a WorldFactory through its constructor and only ever
- * talks to the Enemy / Terrain / Soundtrack interfaces — it never
- * references ForestEnemy, IceTerrain, etc. directly.
- */
 public class GameClient {
 
     private final Enemy enemy;

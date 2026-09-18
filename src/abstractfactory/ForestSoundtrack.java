@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Product C1 */
 public class ForestSoundtrack implements Soundtrack {
     @Override
     public String describe() {

@@ -1,6 +1,4 @@
 package factorymethod;
-
-/** Concrete Product 2 */
 public class Skeleton implements Enemy {
 
     private final int health = 45;

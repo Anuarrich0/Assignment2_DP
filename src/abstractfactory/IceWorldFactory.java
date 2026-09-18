@@ -1,6 +1,5 @@
 package abstractfactory;
 
-/** Concrete Factory 2 — guarantees a fully Ice-themed family. */
 public class IceWorldFactory implements WorldFactory {
     @Override
     public Enemy createEnemy() {
