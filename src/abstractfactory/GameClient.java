@@ -6,8 +6,6 @@ public class GameClient {
     private final Terrain terrain;
     private final Soundtrack soundtrack;
 
-    // The family is selected in exactly one place: whoever constructs
-    // GameClient decides which WorldFactory to pass in.
     public GameClient(WorldFactory factory) {
         this.enemy = factory.createEnemy();
         this.terrain = factory.createTerrain();
